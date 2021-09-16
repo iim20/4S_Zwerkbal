@@ -1,5 +1,5 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     background-color: #f2f2f2;
 }
@@ -25,6 +25,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header .title{
@@ -49,6 +50,7 @@ nav a.active{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 img.logo{
@@ -84,4 +86,41 @@ label{
 
 .form-control{
     min-width: 200px;
+}
+
+/* Dashboard */
+.dashboard{
+    display: flex;
+    justify-content: space-between;
+}
+
+.resultaat{
+    display: block;
+}
+.resultaat_1{
+    margin-bottom: 30px;
+}
+
+.resultaat_1 p,
+.resultaat_2 p{
+    font-size: 1.4rem;
+    min-width: 450px;
+}
+
+.resultaat_1,
+.resultaat_2{
+    text-align: center;
+    border: 2px solid #D3A625;
+    padding: 10px;
+}
+
+.toernooien_img{
+    position: relative;
+    border: 2px solid #D3A625;
+    width: 48%;
+}
+.toernooien_img img{
+    position: absolute;
+    width: 90%;
+    left: 5%;
 }
